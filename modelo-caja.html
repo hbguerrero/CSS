@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudoclase</title>
+
+    <style>
+
+        *{
+            font-family: sans-serif;
+        }
+        .menu{
+            background-color: rgb(19, 164, 164);
+        }
+
+        .menu-nav__item{
+            display: inline-block;
+        }
+        .menu-nav__item a{
+            color: #ffff;
+            text-decoration: none;
+        }
+
+        /*Pseudoclases*/
+
+        .menu-nav__item a:hover{
+            color: rgb(53, 29, 25)
+        }
+
+        .menu-nav__item a:active{
+            color: rgb(61, 13, 235);
+        }
+
+        .menu-nav__item a::after{
+            content: " | ";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="">Inicio</a></li>
+                <li class="menu-nav__item"><a href="">Trabajos</a></li>
+                <li class="menu-nav__item"><a href="">Blog</a></li>
+                <li class="menu-nav__item"><a href="">Contacto</a></li>            
+            </ul>
+        </nav>
+
+    
+    </header>
+
+    <main>
+        <section>
+            <h1>Hola mundo</h1>
+            <div>
+                <p>
+                    Este es un párrafo, Este es un párrafo, Este es un párrafo, Este es un párrafo,
+                    Este es un párrafo, Este es un párrafo, Este es un párrafo, Este es un párrafo
+                    Este es un párrafo, Este es un párrafo, Este es un párrafo, Este es un párrafo 
+                </p>
+            </div>
+            <ul>
+                <li>Item</li>
+            </ul>
+
+        </section>
+    </main>
+
+
+</body>
+</html>
